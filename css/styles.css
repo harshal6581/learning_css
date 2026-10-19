@@ -1,0 +1,37 @@
+h2{
+    color: blue;
+    background-color:palevioletred ;
+}
+
+h3{
+    color: aquamarine;
+    background-color: black;
+    font-size: 60px;
+
+}
+
+h4{
+    color: black;
+    background-color: aliceblue;
+
+
+}
+
+.heading_red{
+    color: red;
+}
+.heading_blue{
+    color: blue;
+}
+.name{
+    color: gold;
+    background-color:black;
+}
+
+.font_1{
+    font: 120px;
+}
+
+#city{
+    color: crimson;
+}
