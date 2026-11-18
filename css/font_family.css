@@ -1,0 +1,80 @@
+.f_family1{
+    font-family: sans-serif;
+}
+
+.f_family2{
+    font-family: fantasy;
+}
+
+.f_family3{
+    font-family: cursive;
+}
+
+.f_weight{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.b_properties1{
+    border: 20px groove orangered;
+    /* solid , dashed , dotted , double , inset , outset, groove */
+    box-shadow: 5px 8px 6px green;
+    /*border-top: pink; -- decides the colour of border at top in same way border down , right and left works*/
+   /* border-color: aquamarine gold red palevioletred;
+   border color gives color to all borders in top , right , bottom ,left order*/
+
+  /* border-radius: 50px;
+   border-right: 20px; 
+   --border radius affects the corners of border */
+   border-radius: 40px 60px 40px 60px;
+}
+
+.box_model{
+    border: 8px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 50px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.box_static{
+    position: static;
+}
+
+.box_relative{
+    position: relative;
+    left: 350px;
+    top: 30px;
+}
+
+.box_abs{
+    position:absolute;
+    left: 30px;
+    top: 40px;
+
+}
+
+.box_sticky{
+    position:sticky;
+    top: 10px;
+
+}
+
+.box_fixed{
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+
+
+
